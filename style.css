@@ -6,16 +6,20 @@
 body {
     display: flex;
     justify-content: center;
+    margin-left:100px;
+    margin-right: 100px;
 }
 
 #main_container {
     display: flex;
     flex-direction: column;
-    width: 900px;
+    width: 800px;
     background-color: rgb(240, 240, 239);
-    gap: 20px;
+    gap: 5px;
     padding: 30px;
     font-weight: 600;
+    height: 300px;
+    
 }
 
 .center_align {
@@ -29,7 +33,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(158, 209, 143);
-    padding: 5px;
+    padding: 2px;
+    height: 300px;
 }
 
 #left_header {
@@ -54,8 +59,8 @@ body {
 }
 
 #left_header #languages {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 #right_header {
@@ -64,7 +69,7 @@ body {
     /* margin-right: 5%; */
     margin-left: 5%;
     padding: 20px;
-    gap: 5px;
+    gap: 2px;
     height: fit-content;
     width: 380px;
 }
@@ -165,4 +170,7 @@ tbody td {
         height: fit-content;
         width: 50%;
     }
+}
+@media print {
+
 }
