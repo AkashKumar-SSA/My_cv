@@ -39,7 +39,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 500px;
-    background-color: aquamarine;
 }
 
 #left_header #name {
