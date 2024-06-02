@@ -31,7 +31,7 @@ body {
     justify-content: space-between;
     background-color: rgb(158, 209, 143);
     padding: 2px;
-    height: 200px;
+    height: fit-content;
 }
 
 #left_header {
