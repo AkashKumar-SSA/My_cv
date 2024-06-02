@@ -6,7 +6,7 @@
 body {
     display: flex;
     justify-content: center;
-    margin-left:100px;
+    margin-left: 100px;
     margin-right: 100px;
 }
 
@@ -18,7 +18,7 @@ body {
     gap: 15px;
     font-weight: 600;
     height: 200px;
-    
+
 }
 
 .texta-align-center {
@@ -82,14 +82,15 @@ body {
 #right_header div span {
     display: flex;
     text-wrap: wrap;
-    
+
 }
 
 #right_header div a:hover {
     color: blue;
     text-decoration: underline;
 }
-#right_header div img{
+
+#right_header div img {
     width: 35px;
     height: 30px;
 }
@@ -101,27 +102,6 @@ body {
     margin: 0px;
     font-style: italic;
     padding: 10px;
-}
-
-#programming_languages,
-#professional_skill {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    border: 2px solid black;
-    flex-wrap: wrap;
-    height: 30px;
-    gap: 2px;
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-}
-
-#Experience_description {
-    border: 1px solid black;
-    width: 100%;
-    padding: 10px;
-    background-color: rgb(205, 205, 202);
 }
 
 table {
@@ -140,7 +120,8 @@ tbody td {
     background-color: rgb(205, 205, 202);
 }
 
-#programming_languages div ,#professional_skill div{
+#programming_languages div,
+#professional_skill div {
     background-color: rgb(205, 205, 202);
 }
 
@@ -168,6 +149,5 @@ tbody td {
         width: 50%;
     }
 }
-@media print {
 
-}
+@media print {}
