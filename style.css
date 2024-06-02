@@ -6,8 +6,9 @@
 body {
     display: flex;
     justify-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 20px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
 }
 
 #main_container {
@@ -17,7 +18,7 @@ body {
     background-color: rgb(240, 240, 239);
     gap: 15px;
     font-weight: 600;
-    height: 200px;
+    height: 100%;
 
 }
 
@@ -32,7 +33,7 @@ body {
     justify-content: space-between;
     background-color: rgb(158, 209, 143);
     padding: 2px;
-    height: 300px;
+    height: 176px;
 }
 
 #left_header {
