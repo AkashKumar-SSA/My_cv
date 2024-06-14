@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pop.css">
 </head>
 
 <body>
     <div id="main_container">
         <div id="header">
             <div id="left_header">
-                <span id="name">
+                <span id="cv_name">
                     <h3>AKASH KUMAR</h3>
                 </span>
                 <div id="description">Computer science engineer with holistic knowledge of computer science and
@@ -59,7 +60,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr id="btechcse_marksheet">
                         <td>B.tech Computer Science and Engineering</td>
                         <td>Shobhit institute of Engineering and Technology</td>
                         <td class="texta-align-center">8.04 CGPA<br> <i>(third semester)</i></td>
@@ -211,7 +212,7 @@
                     </tr>
                     <tr>
                         <td class="texta-align-center">4.</td>
-                        <td>NCC  A ,B & C Certificate</td>
+                        <td>NCC A ,B & C Certificate</td>
                     </tr>
                     <tr>
                         <td class="texta-align-center">5.</td>
@@ -266,6 +267,20 @@
         </div>
     </div>
 
+    <!-- Pop up container -->
+    <div id="outer_container">
+        <div id="background_container">
+            <div id="header">
+                <p id="content_header"></p>
+                <button id="remove_button">X</button>
+            </div>
+            <div id="content">
+            </div>
+        </div>
+    </div>
+    <!-- <button id="button">click</button> -->
+
+    <script src="script.js"></script>
 </body>
 
 </html>

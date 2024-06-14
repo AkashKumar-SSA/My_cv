@@ -1,0 +1,50 @@
+#outer_container {
+    background-color: rgba(6, 66, 86, 0.2);
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+#outer_container {
+    display: none;
+}
+
+#background_container {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 5px;
+}
+
+#header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+}
+
+p {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    height: fit-content;
+}
+
+#content {
+    width: 600px;
+    height: 800px;
+    /* background-color: aquamarine; */
+    /* background-image: url(resourses/akash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; */
+}
