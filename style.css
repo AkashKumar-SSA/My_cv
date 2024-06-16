@@ -130,6 +130,16 @@ tbody td {
     background-color: rgb(205, 205, 202);
 }
 
+#project_sticky_notes a {
+    color: black;
+    text-decoration: none;
+}
+
+#project_sticky_notes a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
 /* ADDING DEVICE COMPATIBILITY */
 /* @media screen and (max-width:400px) {
     #main_container {
@@ -159,11 +169,13 @@ tbody td {
         display: flex;
         margin: 20px;
     }
+
     #left_header {
         display: flex;
         flex-direction: column;
         width: 80%;
     }
+
     #header {
         display: flex;
         flex-direction: column;
@@ -172,6 +184,7 @@ tbody td {
         padding: 10px;
         height: fit-content;
     }
+
     #right_header {
         display: flex;
         flex-direction: column;
@@ -182,6 +195,7 @@ tbody td {
         width: 100%;
         margin: 10px;
     }
+
     #right_header div {
         display: flex;
         flex-direction: row;
@@ -189,6 +203,8 @@ tbody td {
         gap: 20px;
         align-items: center;
     }
+
+
 
     /* #main_container {
         display: flex;
@@ -220,11 +236,13 @@ tbody td {
         display: flex;
         margin: 20px;
     }
+
     #left_header {
         display: flex;
         flex-direction: column;
         width: 80%;
     }
+
     #header {
         display: flex;
         flex-direction: column;
@@ -233,6 +251,7 @@ tbody td {
         padding: 10px;
         height: fit-content;
     }
+
     #right_header {
         display: flex;
         flex-direction: column;
@@ -243,6 +262,7 @@ tbody td {
         width: 100%;
         margin: 10px;
     }
+
     #right_header div {
         display: flex;
         flex-direction: row;
@@ -252,7 +272,8 @@ tbody td {
     }
 
 }
-    /* body {
+
+/* body {
         display: flex;
         margin: 20px;
     }
@@ -291,11 +312,13 @@ tbody td {
         display: flex;
         margin: 20px;
     }
+
     #left_header {
         display: flex;
         flex-direction: column;
         width: 80%;
     }
+
     #header {
         display: flex;
         flex-direction: column;
@@ -304,6 +327,7 @@ tbody td {
         padding: 10px;
         height: fit-content;
     }
+
     #right_header {
         display: flex;
         flex-direction: column;
@@ -314,6 +338,7 @@ tbody td {
         width: 100%;
         margin: 10px;
     }
+
     #right_header div {
         display: flex;
         flex-direction: row;

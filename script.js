@@ -72,9 +72,77 @@ skill_leadership.addEventListener("mouseover", () => {
     mouseover_fun("skill_leadership", "Leadership", "resourses/akash.jpg");
 })
 
-
 // events on skills-problem solving
-const skill_problem_solvint = document.querySelector("#skill_problem_solvint")
-skill_problem_solvint.addEventListener("mouseover", () => {
-    mouseover_fun("skill_problem_solvint", "Problem Solving", "resourses/akash.jpg");
+const skill_problem_solving = document.querySelector("#skill_problem_solving")
+skill_problem_solving.addEventListener("mouseover", () => {
+    mouseover_fun("skill_problem_solving", "Problem Solving", "resourses/akash.jpg");
 })
+
+// Events on certificate and achievements
+// events on su code blaze
+const certificate_SUcode_blaze = document.querySelector("#certificate_SUcode_blaze")
+certificate_SUcode_blaze.addEventListener("mouseover", () => {
+    mouseover_fun("certificate_SUcode_blaze", "SU Code Blaze Hackthon", "resourses/akash.jpg");
+})
+
+// events IIRS-ISRO 
+const cerificate_overview_geoprocessing_using_python = document.querySelector("#cerificate_overview_geoprocessing_using_python")
+cerificate_overview_geoprocessing_using_python.addEventListener("mouseover", () => {
+    mouseover_fun("cerificate_overview_geoprocessing_using_python", "Overview of geoprocessing using python", "resourses/akash.jpg");
+})
+
+// events on Smart india hackathon
+const certifice_internal_smart_india_hackathon = document.querySelector("#certifice_internal_smart_india_hackathon")
+certifice_internal_smart_india_hackathon.addEventListener("mouseover", () => {
+    mouseover_fun("certifice_internal_smart_india_hackathon", "Internal Smart India Hackathon", "resourses/akash.jpg");
+})
+
+// events on NCC - C
+const certificate_ncc_C_certificate = document.querySelector("#certificate_ncc_C_certificate")
+certificate_ncc_C_certificate.addEventListener("mouseover", () => {
+    mouseover_fun("certificate_ncc_C_certificate", "NCC- C Certificate", "resourses/akash.jpg");
+})
+
+// events on NCC ATC
+const certificate_army_attachment_camp = document.querySelector("#certificate_army_attachment_camp")
+certificate_army_attachment_camp.addEventListener("mouseover", () => {
+    mouseover_fun("certificate_army_attachment_camp", "Army Attachment Camp certificate", "resourses/akash.jpg");
+})
+
+// events on MRDC CAMP
+const certificate_MRDC = document.querySelector("#certificate_MRDC")
+certificate_MRDC.addEventListener("mouseover", () => {
+    mouseover_fun("certificate_MRDC", "MRDC", "resourses/akash.jpg");
+})
+
+// Events on extra-curricular activities
+// events on su code blaze
+const extra_curricular_debate_competion = document.querySelector("#extra_curricular_debate_competion")
+extra_curricular_debate_competion.addEventListener("mouseover", () => {
+    mouseover_fun("extra_curricular_debate_competion", "Debate Competition", "resourses/akash.jpg");
+})
+
+// events on su code blaze
+const extra_curricular_quiz_competion = document.querySelector("#extra_curricular_quiz_competion")
+extra_curricular_quiz_competion.addEventListener("mouseover", () => {
+    mouseover_fun("extra_curricular_quiz_competion", "Quiz Competition", "resourses/akash.jpg");
+})
+
+// events on su code blaze
+const extra_curricular_waste_to_best = document.querySelector("#extra_curricular_waste_to_best")
+extra_curricular_waste_to_best.addEventListener("mouseover", () => {
+    mouseover_fun("extra_curricular_waste_to_best", "Waste to Best competiton", "resourses/akash.jpg");
+})
+
+// events on su code blaze
+const extra_curricular_IPSC_Band = document.querySelector("#extra_curricular_IPSC_Band")
+extra_curricular_IPSC_Band.addEventListener("mouseover", () => {
+    mouseover_fun("extra_curricular_IPSC_Band", "IPSC Band competition", "resourses/akash.jpg");
+})
+
+// Events on Projects
+// Project - Sticky notes
+// const project_sticky_notes = document.querySelector("#project_sticky_notes")
+// project_sticky_notes.addEventListener("click"()=> {
+//     // open sticky note website
+// })
