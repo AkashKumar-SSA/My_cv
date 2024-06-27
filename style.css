@@ -273,37 +273,6 @@ tbody td {
 
 }
 
-/* body {
-        display: flex;
-        margin: 20px;
-    }
-
-    #header {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        background-color: rgb(158, 209, 143);
-        padding: 10px;
-        height: fit-content;
-    }
-    #right_header {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-        gap: 5px;
-        height: fit-content;
-        width: 100%;
-        margin: 10px;
-    }
-    #right_header div {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        gap: 20px;
-        align-items: center;
-    }
-} */
 
 /* Styles for medium screens (tablets) */
 @media (min-width: 601px) and (max-width: 1024px) {
