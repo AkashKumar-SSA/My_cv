@@ -141,98 +141,10 @@ tbody td {
 }
 
 /* ADDING DEVICE COMPATIBILITY */
-/* @media screen and (max-width:400px) {
-    #main_container {
-        display: flex;
-        flex-direction: column;
-        width: 400px;
-        background-color: rgb(240, 240, 239);
-        gap: 20px;
-        padding: 10px;
-        font-weight: 600;
-    }
-    #right_header {
-        display: flex;
-        flex-direction: column;
-        border: 2px solid rgb(104, 99, 99);
-        margin-right: 5%;
-        margin-left: 5%;
-        padding: 2px;
-        gap: 2px;
-        height: fit-content;
-        width: 50%;
-    }    
-} */
-@media screen and (max-width:400px) {
-    body {
-        background-color: lightgreen;
-        display: flex;
-        margin: 20px;
-    }
-
-    #left_header {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-    }
-
-    #header {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        background-color: rgb(158, 209, 143);
-        padding: 10px;
-        height: fit-content;
-    }
-
-    #right_header {
-        display: flex;
-        flex-direction: column;
-        /* justify-content: center; */
-        align-items: center;
-        gap: 5px;
-        height: fit-content;
-        width: 100%;
-        margin: 10px;
-    }
-
-    #right_header div {
-        display: flex;
-        flex-direction: row;
-        width: 80%;
-        gap: 20px;
-        align-items: center;
-    }
-
-
-
-    /* #main_container {
-        display: flex;
-        flex-direction: column;
-        width: 500px;
-        background-color: rgb(240, 240, 239);
-        gap: 20px;
-        padding: 10px;
-        font-weight: 600;
-    }
-
-    #right_header {
-        display: flex;
-        flex-direction: column;
-        border: 2px solid rgb(104, 99, 99);
-        padding: 2px;
-        gap: 2px;
-        height: fit-content;
-        width: 100%;
-    } */
-}
-
-
 
 /* Styles for smaller screens (mobile phones) */
 @media screen and (min-width:400px) and (max-width: 600px) {
     body {
-        background-color: lightgreen;
         display: flex;
         margin: 20px;
     }
@@ -277,7 +189,6 @@ tbody td {
 /* Styles for medium screens (tablets) */
 @media (min-width: 601px) and (max-width: 1024px) {
     body {
-        background-color: lightgreen;
         display: flex;
         margin: 20px;
     }
@@ -319,10 +230,4 @@ tbody td {
 }
 
 /* Styles for larger screens (desktops) */
-@media (min-width: 1025px) {
-    body {
-        background-color: lightyellow;
-    }
-}
-
-@media print {}
+@media (min-width: 1025px) {}
