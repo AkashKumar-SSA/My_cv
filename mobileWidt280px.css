@@ -20,6 +20,8 @@
         font-weight: 600;
         margin: 0;
         padding: 0;
+        padding-bottom: 20px;
+        width: 98%;
 
     }
 
@@ -101,10 +103,10 @@
     table {
         margin: 0px;
         padding: 0px;
-        width: 97%;
+        width: 95%;
         display: block;
         padding: 2px;
-        margin-left: 2px;
+        margin-left: 5px;
 
 
     }
@@ -142,6 +144,10 @@
     }
 
     #Academic_detail {
-        display: none;
+        font-size: 10px;
+    }
+
+    #Academic_detail tbody i {
+        font-size: 10px;
     }
 }
